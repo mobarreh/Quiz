@@ -7,7 +7,7 @@ Locate the index.html and run in your local browser. You'll be taken into the la
 
 Alternatively, head to the link below to see the deployed application:
 
-
+ https://shtuupid.github.io/Quiz/
 
 # Languages Used
 
