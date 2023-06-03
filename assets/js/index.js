@@ -32,7 +32,7 @@ const questions = [
         secondQuestion: "2. other arrays",
         thridQuestion: "3. booleans",
         fourthQuestion: "4. all of the above",
-        correctAnswer: choice
+        correctAnswer: fourthQuestion
     },
     {
         question: "The condition in an if / else statement is enclosed within _____.",
@@ -144,5 +144,9 @@ function startQuiz() {
     renderQuestions();
 
     setTime();
+
+    start.style.display = "none";
+    content.style.display = "none";
+    quiz.style.display = "block";
 
 };
